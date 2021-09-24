@@ -12,12 +12,13 @@ import java.sql.SQLException;
 import java.sql.ResultSet;
 
 
+
 /**
  *
  * @author Benjamin
  */
 public class Conexion {
-    String strconexionDB = "jdbc:sqlite:C:/Users/Benjamin/Documents/Dbjavamysqlite/javacrud.s3db";
+    String strconexionDB = "jdbc:sqlite:C:/Users/Usuario/Documents/NetBeansProjects/crudjavasqlite/src/javasqlite/recursos/javacrud.s3db";
     Connection conn = null;
     
     public Conexion(){
